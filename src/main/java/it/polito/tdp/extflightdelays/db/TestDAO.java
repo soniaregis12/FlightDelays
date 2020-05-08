@@ -6,9 +6,7 @@ public class TestDAO {
 
 		ExtFlightDelaysDAO dao = new ExtFlightDelaysDAO();
 
-		System.out.println(dao.loadAllAirlines());
-		System.out.println(dao.loadAllAirports());
-		System.out.println(dao.loadAllFlights().size());
+		
 	}
 
 }
